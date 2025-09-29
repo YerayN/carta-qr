@@ -1,0 +1,28 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtualenv
+.venv/
+
+# Env files
+.env
+.env.*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Django
+*.sqlite3
+
+# Migrations cache (opcional, NO borra migraciones)
+**/__pycache__/
+
+# Coverage / pytest
+.coverage
+htmlcov/
+.pytest_cache/
